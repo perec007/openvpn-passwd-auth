@@ -1,0 +1,19 @@
+set_var EASYRSA                 "$PWD"
+set_var EASYRSA_PKI             "$EASYRSA/pki"
+set_var EASYRSA_DN              "cn_only"
+set_var EASYRSA_REQ_COUNTRY     "ES"
+set_var EASYRSA_REQ_PROVINCE    "Fran"
+set_var EASYRSA_REQ_CITY        "Madrid"
+set_var EASYRSA_REQ_ORG         "Organisation"
+set_var EASYRSA_REQ_EMAIL       "admin@admin.com"
+set_var EASYRSA_REQ_OU          "IT department"
+set_var EASYRSA_KEY_SIZE        2048
+set_var EASYRSA_ALGO            rsa
+set_var EASYRSA_CA_EXPIRE       7500
+set_var EASYRSA_CERT_EXPIRE     3650
+set_var EASYRSA_NS_SUPPORT      "no"
+set_var EASYRSA_NS_COMMENT      "CERTIFICATE AUTHORITY"
+set_var EASYRSA_EXT_DIR         "$EASYRSA/x509-types"
+set_var EASYRSA_SSL_CONF        "$EASYRSA/openssl-1.0.cnf"
+set_var EASYRSA_DIGEST          "sha512"
+
